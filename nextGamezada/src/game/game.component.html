@@ -1,0 +1,8 @@
+<div class="game-list">
+  <h1>Game List</h1>
+  <ul>
+    @for (game of gamesList; track game.id) {
+      <li >{{ game.id }} | {{ game.name }} | {{ game.price }} | {{ game.maxPlayers }} | {{ game.onSale }}</li>
+    }
+  </ul>
+</div>
