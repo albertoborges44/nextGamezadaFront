@@ -1,8 +1,12 @@
-<h1>NextGamezada App</h1>
-  <nav>
-    <ul>
-      <li><a routerLink="/game-component" routerLinkActive="router-link-active" >Game Component</a></li>
-      <li><a routerLink="/pool-component" routerLinkActive="router-link-active">Pool Component</a></li>
-    </ul>
-  </nav>
+<div class="toolbar">
+  <app-next-gamezada-toolbar></app-next-gamezada-toolbar>
+</div>
+  <div class="main-card">
+    <div class="sidebar">
+      <app-next-gamezada-true-side-bar></app-next-gamezada-true-side-bar>
+    </div>
+    <div class="main-content">
+      <app-next-gamezada-main-content-page></app-next-gamezada-main-content-page>
+    </div>
+  </div>
 <router-outlet></router-outlet>
