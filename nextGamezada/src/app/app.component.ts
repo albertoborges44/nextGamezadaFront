@@ -11,6 +11,7 @@ import {MatTableModule} from '@angular/material/table';
 import { NextGamezadaToolbarComponent } from './next-gamezada-toolbar/next-gamezada-toolbar.component';
 import { NextGamezadaTrueSideBarComponent } from './next-gamezada-true-side-bar/next-gamezada-true-side-bar.component';
 import { NextGamezadaMainContentPageComponent } from './next-gamezada-main-content-page/next-gamezada-main-content-page.component';
+import { NextGamezadaFooterComponent } from "./next-gamezada-footer/next-gamezada-footer.component";
 
 @Component({
   selector: 'app-root',
@@ -28,7 +29,9 @@ import { NextGamezadaMainContentPageComponent } from './next-gamezada-main-conte
     MatTableModule,
     NextGamezadaToolbarComponent,
     NextGamezadaTrueSideBarComponent,
-    NextGamezadaMainContentPageComponent],
+    NextGamezadaMainContentPageComponent,
+    NextGamezadaFooterComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

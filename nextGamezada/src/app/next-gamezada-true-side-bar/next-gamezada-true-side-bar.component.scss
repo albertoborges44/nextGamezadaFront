@@ -1,3 +1,7 @@
-.sidebar {
-  padding: 5px;
+.sidebar-intern {
+  display: flex; /* Ativa o flexbox */
+  flex-direction: row; /* Organiza os itens horizontalmente */
+  justify-content: space-between; /* (opcional) Controla o espaçamento entre os itens */
+  align-items: center; /* (opcional) Alinha os itens verticalmente */
+  width: 100%;
 }
