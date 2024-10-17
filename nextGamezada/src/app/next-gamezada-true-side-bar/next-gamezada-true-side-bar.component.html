@@ -1,8 +1,12 @@
 <div class="sidebar-intern">
   <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="gamepad"></mat-icon>
-  <div class="item"><button mat-button>Games</button></div>
+  <div class="item">
+    <button mat-button [disabled]="formIsInvalid" (click)="getAllGames()">Games</button>
+  </div>
   <mat-divider [inset]="true"></mat-divider>
   <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="poll"></mat-icon>
-  <div class="item"><button mat-button>Polls</button></div>
+  <div class="item">
+    <button mat-button>Polls</button>
+  </div>
 </div>
 

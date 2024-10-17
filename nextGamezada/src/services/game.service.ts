@@ -22,7 +22,7 @@ export class GameService {
 
   constructor(private http: HttpClient) {}
 
-  getGames(): Observable<Game[]> {
-    return this.http.get<Game[]>(this.gameApiUrl);
+  getGames(): Observable</*Game[]*/any> {
+    return this.http.get</*Game[]*/any>(this.gameApiUrl);
   }
 }
